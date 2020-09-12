@@ -41,7 +41,7 @@ inline int power(ll a,ll n,ll m){if(n==0)return 1;ll p=power(a,n/2,m);p=(p%m*p%m
 const double EPS = 1e-9;
 const ll MOD =998244353;
 const ll hell=1000000007;
-const int INF = 1e18;
+const int INF = 1e15;
 const ll LL_INF = 0x3f3f3f3f3f3f3f3f;
 template<typename T>
 using ordered_set=tree<T, null_type, less<T>, rb_tree_tag,tree_order_statistics_node_update>;
@@ -71,6 +71,8 @@ void solve()
 int32_t main(){
     
     IOS;
+    //FILE *fin = freopen("in","r",stdin);
+    //FILE *fout = freopen("out","w",stdout);
     int t;
     t=1;
     // cin>>t;
