@@ -1,4 +1,9 @@
 
+/*
+Union Of Sets 
+Time complexity -  nlogn^2
+Always merge small set to large set
+*/
 
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
